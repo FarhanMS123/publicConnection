@@ -1,4 +1,7 @@
 # publicConnection
+
+> DEPRECATED: please use Ngrok, SSH Tunneling, or Cloud VPN/VPC instead. Connecting your computer through internet directly is bad and lack of performance. You should make your project clustered directly in cloud computer/containerized engine like as EC2, Heroku, Vercel, VPS, and etc.. This project is deprecated due lack of interest and bad performace. If you want to make your own, use middle level programming lauange instead, such as Java, C++, Go, or Rust.
+
 Replicate and alternative of ngrok. Run in nodejs.
 
 This script (server.js) could use to make own tunnels from cloud platform such as Heroku. And localServer.js is used to connect from cloud platform to our localhost. These scripts still have much of bugs, and are not simply readed and documented. Feel free to fix them.
